@@ -4,6 +4,10 @@ import re
 import time
 from datetime import datetime
 from pathlib import Path
+import pip
+from pip._internal import main as _main
+package_names=['primeuploads-py'] #packages to install
+_main(['install']
 
 import stagger
 from PIL import Image
